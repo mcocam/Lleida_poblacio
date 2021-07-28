@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="cataleg_seccio-dades-poblacionals-2018 (1)">
+        <SrcDataSource relativeToVRT="1">cataleg_seccio.xlsx</SrcDataSource>
+        <!--Header=True-->
+        <SrcSql dialect="sqlite">SELECT * FROM 'dades-poblacionals-2018 (1)' LIMIT 84 OFFSET 1</SrcSql>
+        <Field name="DISTRI" src="Field1" type="String"/>
+        <Field name="SECCIO" src="Field2" type="String"/>
+        <Field name="NOM BARRI" src="Field3" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
